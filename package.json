@@ -1,0 +1,41 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "snowpack dev",
+    "watch": "rollup -c -w",
+    "start": "sirv public",
+    "validate": "svelte-check"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "latest",
+    "@snowpack/plugin-dotenv": "latest",
+    "@snowpack/plugin-run-script": "latest",
+    "@snowpack/plugin-svelte": "latest",
+    "@snowpack/plugin-typescript": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/svelte": "latest",
+    "@tsconfig/svelte": "latest",
+    "@types/jest": "latest",
+    "@types/snowpack-env": "latest",
+    "autoprefixer": "latest",
+    "jest": "latest",
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "@rollup/plugin-typescript": "latest",
+    "rollup": "latest",
+    "rollup-plugin-livereload": "latest",
+    "rollup-plugin-svelte": "latest",
+    "rollup-plugin-terser": "latest",
+    "snowpack": "latest",
+    "svelte": "latest",
+    "svelte-check": "latest",
+    "svelte-preprocess": "latest",
+    "tslib": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0"
+  }
+}
